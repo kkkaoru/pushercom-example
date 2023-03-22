@@ -1,0 +1,23 @@
+{
+  "name": "@kkkaoru/git-hooks",
+  "version": "3.2.2",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": "https://github.com/kkkaoru/frontend-configs",
+  "bugs": {
+    "url": "https://github.com/kkkaoru/frontend-configs/issues"
+  },
+  "homepage": "https://github.com/kkkaoru/frontend-configsy#readme",
+  "dependencies": {
+    "@commitlint/cli": "17.5.0",
+    "@commitlint/config-conventional": "17.4.4",
+    "@commitlint/cz-commitlint": "17.5.0",
+    "commitizen": "4.3.0",
+    "husky": "8.0.3",
+    "inquirer": "8.2.5",
+    "lint-staged": "13.2.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Library",
+  "extends": "./base-with-vitest.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["ES2015"],
+    "module": "ESNext",
+    "target": "es6",
+    "declaration": true,
+    "outDir": "dist",
+    "noEmit": false,
+    "emitDeclarationOnly": true
+  }
+}

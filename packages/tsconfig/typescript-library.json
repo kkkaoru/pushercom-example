@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "TypeScript library",
+  "extends": "./base.json",
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist",
+    "noEmit": false,
+    "emitDeclarationOnly": true
+  }
+}

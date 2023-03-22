@@ -1,0 +1,26 @@
+{
+  "name": "@kkkaoru/example-utils",
+  "version": "1.2.2",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "private": true,
+  "main": "./dist/example-utils.umd.js",
+  "module": "./dist/example-utils.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/example-utils.mjs",
+      "require": "./example-utils.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "prettier": "prettier --write --check src",
+    "eslint": "eslint -c ../../.eslintrc.js --max-warnings=0 --fix --ext .ts,.tsx src",
+    "test": "vitest run --config ../../vitest.config.js src"
+  }
+}

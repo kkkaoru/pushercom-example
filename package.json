@@ -1,0 +1,56 @@
+{
+  "name": "frontend-configs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "commit-msg": "commitlint --edit",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset publish",
+    "build": "turbo run build",
+    "prettier": "turbo run prettier",
+    "eslint": "turbo run eslint",
+    "lint-staged": "lint-staged",
+    "husky-install": "husky install",
+    "test": "turbo run test",
+    "prepare": "pnpm run husky-install & pnpm run build",
+    "preinstall": "npx -y only-allow pnpm"
+  },
+  "engines": {
+    "node": "18.14.2",
+    "npm": "use pnpm",
+    "pnpm": ">=7",
+    "yarn": "use pnpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kkkaoru/frontend-configs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/kkkaoru/frontend-configs/issues"
+  },
+  "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
+  "devDependencies": {
+    "@kkkaoru/eslint-config": "workspace:*",
+    "@kkkaoru/git-hooks": "workspace:*",
+    "@kkkaoru/monorepo-root": "workspace:*",
+    "@kkkaoru/prettier-config": "workspace:*",
+    "@kkkaoru/tsconfig": "workspace:*",
+    "@kkkaoru/vite-config": "workspace:*",
+    "@kkkaoru/vitest-config": "workspace:*",
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vitest": "0.29.7",
+    "eslint": "8.36.0"
+  }
+}

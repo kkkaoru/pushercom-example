@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.3.2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "next-build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write --check src",
+    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx -c ../../.eslintrc.js src"
+  },
+  "dependencies": {
+    "@kkkaoru/example-react-components": "workspace:*",
+    "@kkkaoru/example-utils": "workspace:*",
+    "@next/font": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "5.0.2"
+  }
+}
