@@ -15,6 +15,8 @@
     "lint-staged": "lint-staged",
     "husky-install": "husky install",
     "test": "turbo run test",
+    "turbo:login": "turbo login",
+    "turbo:link": "turbo link",
     "prepare": "pnpm run husky-install & pnpm run build",
     "preinstall": "npx -y only-allow pnpm"
   },
@@ -30,27 +32,27 @@
   },
   "keywords": [],
   "author": "",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "private": true,
   "bugs": {
     "url": "https://github.com/kkkaoru/frontend-configs/issues"
   },
   "homepage": "https://github.com/kkkaoru/frontend-configs#readme",
   "devDependencies": {
-    "@kkkaoru/eslint-config": "workspace:*",
-    "@kkkaoru/git-hooks": "workspace:*",
-    "@kkkaoru/monorepo-root": "workspace:*",
-    "@kkkaoru/prettier-config": "workspace:*",
-    "@kkkaoru/tsconfig": "workspace:*",
-    "@kkkaoru/vite-config": "workspace:*",
-    "@kkkaoru/vitest-config": "workspace:*",
+    "@kkkaoru/eslint-config": "latest",
+    "@kkkaoru/git-hooks": "latest",
+    "@kkkaoru/monorepo-root": "latest",
+    "@kkkaoru/prettier-config": "latest",
+    "@kkkaoru/tsconfig": "latest",
+    "@kkkaoru/vite-config": "latest",
+    "@kkkaoru/vitest-config": "latest",
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
-    "next": "13.2.4",
+    "eslint": "8.36.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "vitest": "0.29.7",
-    "eslint": "8.36.0"
+    "typescript": "5.0.2",
+    "vite": "4.2.1",
+    "vitest": "0.29.7"
   }
 }

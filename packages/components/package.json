@@ -1,0 +1,29 @@
+{
+  "name": "@kkkaoru/pusher-com-components",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "private": true,
+  "main": "./dist/pusher-com-components.umd.js",
+  "module": "./dist/pusher-com-components.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/pusher-com-components.mjs",
+      "require": "./pusher-com-components.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "prettier": "prettier --write --check src",
+    "eslint": "eslint --max-warnings=0 --fix --ext .ts,.tsx src"
+  },
+  "peerDependencies": {
+    "react": "^17 || ^18",
+    "react-dom": "^17 || ^18"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@kkkaoru/pusher-com-utils",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "files": [
+    "dist",
+    "src"
+  ],
+  "private": true,
+  "main": "./dist/pusher-com-utils.umd.js",
+  "module": "./dist/pusher-com-utils.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/pusher-com-utils.mjs",
+      "require": "./pusher-com-utils.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "prettier": "prettier --write --check src",
+    "eslint": "eslint -c ../../.eslintrc.js --max-warnings=0 --fix --ext .ts,.tsx src",
+    "test": "vitest run --config ../../vitest.config.js src"
+  }
+}
