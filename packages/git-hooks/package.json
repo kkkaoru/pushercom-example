@@ -17,7 +17,7 @@
     "@commitlint/cz-commitlint": "17.5.0",
     "commitizen": "4.3.0",
     "husky": "8.0.3",
-    "inquirer": "8.2.5",
+    "inquirer": "9.1.5",
     "lint-staged": "13.2.0"
   }
 }
