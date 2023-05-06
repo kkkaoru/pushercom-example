@@ -47,7 +47,7 @@
     "@kkkaoru/vite-config": "latest",
     "@kkkaoru/vitest-config": "latest",
     "@types/node": "18.14.6",
-    "@types/react": "18.2.5",
+    "@types/react": "18.2.6",
     "@types/react-dom": "18.2.4",
     "eslint": "8.40.0",
     "react": "18.2.0",
