@@ -17,7 +17,7 @@ importers:
       eslint: 8.40.0
       react: 18.2.0
       typescript: 5.0.4
-      vite: 4.3.5
+      vite: 4.3.6
       vitest: 0.29.7
     devDependencies:
       '@kkkaoru/eslint-config': 1.0.7_typescript@5.0.4
@@ -26,14 +26,14 @@ importers:
       '@kkkaoru/prettier-config': 1.0.1
       '@kkkaoru/tsconfig': 1.0.6
       '@kkkaoru/vite-config': 1.0.3_@types+node@18.14.6
-      '@kkkaoru/vitest-config': 1.0.1_vite@4.3.5
+      '@kkkaoru/vitest-config': 1.0.1_vite@4.3.6
       '@types/node': 18.14.6
       '@types/react': 18.2.6
       '@types/react-dom': 18.2.4
       eslint: 8.40.0
       react: 18.2.0
       typescript: 5.0.4
-      vite: 4.3.5_@types+node@18.14.6
+      vite: 4.3.6_@types+node@18.14.6
       vitest: 0.29.7
 
   apps/pusher-com-app:
@@ -897,10 +897,10 @@ packages:
       - terser
     dev: true
 
-  /@kkkaoru/vitest-config/1.0.1_vite@4.3.5:
+  /@kkkaoru/vitest-config/1.0.1_vite@4.3.6:
     resolution: {integrity: sha512-JVBYDR3BCCB9yh9ntX1pg32L+QnnqEg6vw+F7woNzqFg7U2dcoC4tocvZS9gd+Vb9QdHfL4N9qI4QNEav4C9bg==}
     dependencies:
-      '@vitejs/plugin-react-swc': 3.2.0_vite@4.3.5
+      '@vitejs/plugin-react-swc': 3.2.0_vite@4.3.6
       '@vitest/coverage-c8': 0.29.7_vitest@0.29.7
       vitest: 0.29.7
     transitivePeerDependencies:
@@ -1541,13 +1541,13 @@ packages:
       vite: 4.2.1_@types+node@18.14.6
     dev: true
 
-  /@vitejs/plugin-react-swc/3.2.0_vite@4.3.5:
+  /@vitejs/plugin-react-swc/3.2.0_vite@4.3.6:
     resolution: {integrity: sha512-IcBoXL/mcH7JdQr/nfDlDwTdIaH8Rg7LpfQDF4nAht+juHWIuv6WhpKPCSfY4+zztAaB07qdBoFz1XCZsgo3pQ==}
     peerDependencies:
       vite: ^4
     dependencies:
       '@swc/core': 1.3.35
-      vite: 4.3.5_@types+node@18.14.6
+      vite: 4.3.6_@types+node@18.14.6
     dev: true
 
   /@vitest/coverage-c8/0.29.7_vitest@0.29.7:
@@ -5811,7 +5811,7 @@ packages:
       mlly: 1.1.1
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.5_@types+node@18.14.6
+      vite: 4.3.6_@types+node@18.14.6
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -5879,8 +5879,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.3.5_@types+node@18.14.6:
-    resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
+  /vite/4.3.6_@types+node@18.14.6:
+    resolution: {integrity: sha512-cqIyLSbA6gornMS659AXTVKF7cvSHMdKmJJwQ9DXq3lwsT1uZSdktuBRlpHQ8VnOWx0QHtjDwxPpGtyo9Fh/Qg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5961,7 +5961,7 @@ packages:
       tinybench: 2.4.0
       tinypool: 0.4.0
       tinyspy: 1.1.1
-      vite: 4.3.5_@types+node@18.14.6
+      vite: 4.3.6_@types+node@18.14.6
       vite-node: 0.29.7_@types+node@18.14.6
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
