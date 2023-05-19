@@ -12,8 +12,8 @@
   "dependencies": {
     "@kkkaoru/pusher-com-components": "workspace:*",
     "@kkkaoru/pusher-com-utils": "workspace:*",
-    "@next/font": "13.4.2",
-    "next": "13.4.2",
+    "@next/font": "13.4.3",
+    "next": "13.4.3",
     "pusher-js": "8.0.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
