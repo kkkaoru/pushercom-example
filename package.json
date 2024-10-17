@@ -21,7 +21,7 @@
     "preinstall": "npx -y only-allow pnpm"
   },
   "engines": {
-    "node": "18.14.2",
+    "node": "18.20.4",
     "npm": "use pnpm",
     "pnpm": ">=7",
     "yarn": "use pnpm"
@@ -46,7 +46,7 @@
     "@kkkaoru/tsconfig": "latest",
     "@kkkaoru/vite-config": "latest",
     "@kkkaoru/vitest-config": "latest",
-    "@types/node": "18.14.6",
+    "@types/node": "18.19.56",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
     "eslint": "8.41.0",
