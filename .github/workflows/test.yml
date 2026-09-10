@@ -20,7 +20,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.14.2'
+          node-version: '18.20.8'
           cache: 'pnpm'
       - run: pnpm i --frozen-lockfile
   eslint:
@@ -37,7 +37,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.14.2'
+          node-version: '18.20.8'
           cache: 'pnpm'
       - name: Install
         run: pnpm i --frozen-lockfile
@@ -57,7 +57,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.14.2'
+          node-version: '18.20.8'
           cache: 'pnpm'
       - name: Install
         run: pnpm i --frozen-lockfile
@@ -77,7 +77,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18.14.2'
+          node-version: '18.20.8'
           cache: 'pnpm'
       - name: Install
         run: pnpm i --frozen-lockfile
